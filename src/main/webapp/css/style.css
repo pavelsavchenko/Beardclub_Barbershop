@@ -1,0 +1,985 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    background: url("https://static.pexels.com/photos/4097/city-cars-traffic-lights.jpeg") repeat;
+    background-attachment: fixed;
+    color: white;
+}
+table{
+    color: #222222;
+    text-align: center;
+}
+td{
+    background-color: rgba(255, 255,255, .9);
+}
+th{
+    width: 362px;
+    text-align: center;
+}
+
+.glyphicon{
+    font-size: 15px;
+}
+.top-header{
+
+    margin-bottom: -20px;
+}
+.title-site{
+
+    text-align: center;
+    font-size: 170px;
+    font-family: 'Grand Hotel', cursive;
+    margin-bottom: -50px;
+    margin-top: -25px;
+    color: white;
+    margin-left: -30px;
+}
+.barbershop{
+
+    text-transform: uppercase;
+   text-align: center;
+    font-size: 80px;
+    font-family: 'Sigmar One', cursive;
+    color: white;
+}
+.header{
+    height:  auto;
+    background: url('https://www.phyramid.com/images/blog/making-phyramid-coms-procedurally-rendered-3d-header/header-background-indexed.png');
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-header, .right-header{
+    margin-top: 20px;
+    height: 270px;
+    margin-bottom: 30px;
+}
+.header-content{
+    text-align: center;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: orange;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.left-header>h1{
+    text-align: center;
+}
+
+.place-title{
+
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.navbar-inverse{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-default .navbar-nav>li>a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.label{
+    width: 100px;
+}
+.navbar-default{
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-default .navbar-nav>li>a{
+
+    padding-right: 50px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:hover{
+    color: orange;
+}
+/*.dropdown-menu{*/
+    /*background-color: rgba(0,0,0,0.3);*/
+    /*border: 0;*/
+    /*transition-duration: .6s;*/
+/*}*/
+/*.dropdown-menu:hover{*/
+    /*background-color: rgba(0,0,0,0.7);*/
+    /*border: 0;*/
+    /*transition-duration: .4s;*/
+/*}*/
+/*.dropdown-menu>li>a {*/
+    /*color: white;*/
+/*}*/
+
+textarea{
+    color: black;
+}
+
+a{
+    text-decoration:none;
+    text-transform: uppercase;
+    transition-duration: .4s;
+}
+a:hover{
+    text-decoration: none;
+
+}
+.delete{
+    padding-right: 10px;
+    padding-left: 15px;
+    color: red;
+}
+.barber-service-font-size{
+    font-size: 20px;
+    float: left;
+}
+
+.update-data{
+
+    padding-left: 15px;
+    padding-right: 10px;
+    color: cornflowerblue;
+}
+.exception-message{
+    color: red;
+}
+.logo{
+    float: right;
+    padding-right: 50px;
+}
+.input-style{
+    background-color: rgba(255,255,255,0.9);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 17px;
+    width: 100%;
+    height: 32px;
+    color: #222;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.button-style{
+    border-radius: 25px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.login-button-style{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+    width: 100%;
+}
+.back{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.title-form{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: orange;
+
+}
+.form-adddata{
+    text-align: center;
+    margin-top: 6px;
+    background-color: rgba(34,34,34,0.4);
+    width: 400px; height: auto;
+    margin-left: 438px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 70px;
+    transition-duration: 1s;
+    border: 3px solid white;
+
+}
+.form-login{
+
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 500px; height: auto;
+    border-radius: 30px;
+    padding: 20px;
+    transition-duration: 1s;
+    border: 3px solid white;
+    background-color: rgba(34,34,34,.4);
+
+}
+
+.form-adddata:hover, .form-login:hover{
+    background-color: rgba(34,34,34,1);
+    transition-duration: 0.8s;
+}
+
+.login-title{
+    margin-top: -10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: orange;
+}
+.sign-up-link{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 5px;
+
+}
+.sign-up-form-login {
+    margin-bottom: -10px;
+}
+
+.placeholders{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: rgba(255,255,255,0.8);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sign-up-link>a{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-left: 10px;
+    transition-duration: 1s;
+
+}
+.sign-up-link{
+    color: white;
+}
+.user input[type=text]{
+    padding-left: 60px;
+}
+.user{
+    position: relative;
+}
+.user i{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(0,0,0,0.5);
+    transition: 0.6s;
+}
+.user input[type=text]:focus+i{
+    color: orange;
+    transition: .5s;
+}
+.email-user input[type=email]{
+    padding-left: 60px;
+}
+.email-user{
+    position: relative;
+}
+.email-user i{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(0,0,0,0.5);
+    transition: 0.6s;
+}
+.email-user input[type=email]:focus+i{
+    color: orange;
+    transition: .5s;
+}
+.password-user input[type=password]{
+    padding-left: 60px;
+}
+.password-user{
+    position: relative;
+}
+.password-user i{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(0,0,0,0.5);
+    transition: 0.6s;
+}
+.password-user input[type=password]:focus+i{
+    color: orange;
+    transition: .5s;
+}
+
+.description textarea{
+    padding-left: 60px;
+}
+.description{
+    position: relative;
+}
+.description i{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(0,0,0,0.5);
+    transition: 0.6s;
+}
+.description textarea:focus+i{
+    color: orange;
+    transition: .5s;
+}
+.select-style{
+    background-color: rgba(255,255,255,0.9);
+    border: 0px;
+    width: 100%;
+    height: 32px;
+    color: #222222;
+}
+.description-style{
+    background-color: rgba(255,255,255,0.9);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 17px;
+    color: #222;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.container{
+    box-sizing: border-box;
+    position: relative;
+    margin: 5px auto 0;
+    width: 1100px;
+    height: 500px;
+    padding-right: 15px;
+    padding-left: 0;
+    margin-bottom: 50px;
+
+}
+
+.slider, .img{
+    width: inherit;
+    height: inherit;
+}
+.slider{
+    position: relative;
+    background-color: rgba(0,0,0, .5);
+    overflow: hidden;
+    border: 4px solid white;
+    border-radius: 20px;
+    box-shadow: 0 7px 20px rgba(0,0,0,0.5);
+}
+.img{
+    position: absolute;
+    perspective: 500px;
+    margin-left: -4px;
+}
+.img1 .frag{
+    background-image: url(http://robina.com.au/cbdrobina_website/wp-content/uploads/barber.jpg);
+}
+.img2 .frag{
+    background-image: url(http://man-man.nl/app/uploads/2016/09/Barbershop-baber-kapper-kapsel-MAN-MAN.jpg);
+}
+.img3 .frag{
+    background-image: url(http://man-man.nl/app/uploads/fly-images/8392/header2-1200x545-c.jpg);
+}
+.img4 .frag{
+    background-image: url(https://monsphotography.files.wordpress.com/2015/05/main-event-27.jpg?w=1100&h=500&crop=1);
+}
+.frag{
+    width: 183px;
+    height: inherit;
+    float: left;
+    opacity: 0;
+    z-index: 0;
+    transform-origin: center right;
+    transform: rotateY(90deg) translateZ(-100px) scale(1.5);
+    transition: transform .6s, opacity .6s,  -webkit-filter 2s ease-out;
+    -webkit-filter: saturate(0) blur(10) brightness(5) contrast(2);
+
+}
+.img .frag2{
+    background-position: -183px 0;
+    transition-delay: .2s;
+}
+.img .frag3{
+    background-position: -366px 0;
+    transition-delay: .4s;
+}
+.img .frag4{
+    background-position: -549px 0;
+    transition-delay: .6s;
+}
+.img .frag5{
+    background-position: -732px 0;
+    transition-delay: .8s;
+}
+.img .frag6{
+    background-position: -916px 0;
+    transition-delay: 1s;
+}
+
+#slide1:checked ~ .slider .img1 .frag,
+#slide2:checked ~ .slider .img2 .frag,
+#slide3:checked ~ .slider .img3 .frag,
+#slide4:checked ~ .slider .img4 .frag {
+
+    transform: rotateY(0) translateZ(0) scale(1);
+    -webkit-filter: saturate(1) blur(0) brightness(1) contrast(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+.controls{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -60px;
+}
+.controls label{
+    display: block;
+    border-radius: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+    opacity: .4;
+    transition: opacity .5s;
+}
+.controls label:hover, .side-controls label:hover,
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4){
+    opacity: .8;
+
+}
+.side-controls label{
+    position: absolute;
+    display: block;
+    top:50%;
+    margin-top: -20px;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+
+    cursor: pointer;
+    opacity: .4;
+    transition: opacity .5s;
+}
+#slide1:checked ~ .side-controls label:nth-of-type(4),
+#slide2:checked ~ .side-controls label:nth-of-type(1),
+#slide3:checked ~ .side-controls label:nth-of-type(2),
+#slide4:checked ~ .side-controls label:nth-of-type(3){
+    border-right: 40px solid white;
+    left: -58px;
+}
+#slide1:checked ~ .side-controls label:nth-of-type(2),
+#slide2:checked ~ .side-controls label:nth-of-type(3),
+#slide3:checked ~ .side-controls label:nth-of-type(4),
+#slide4:checked ~ .side-controls label:nth-of-type(1) {
+    border-left: 40px solid white;
+    right: -58px;
+}
+.container > input{
+    display: none;
+}
+.captions{
+    display: none;
+}
+#hellopreloader>p{
+    display:none;
+}
+#hellopreloader_preload{
+    display: block;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+
+    background: #222 url(http://hello-site.ru//main/images/preloads/rings.svg) center center no-repeat;
+    background-size:300px;
+}
+.user-header{
+    float: right;
+}
+.button-logout{
+    margin-top: 10px;
+}
+.commodity-content{
+    margin: 20px;
+    height: auto;
+    width: 96%;
+    padding-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.current-commodity{
+
+    margin-left: 23px;
+    width: 573px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+
+}
+.commodity-image{
+    width: 270px;
+    height: auto;
+    display: inline-block;
+    padding-left: 9px;
+    padding-top: 9px;
+    padding-bottom: 20px;
+    float: left;
+    margin: 0px 25px 60px 0;
+}
+.title-commodity{
+    color: #222222;
+    height: 140px;
+    width: 97%;
+    padding-top: 13px;
+    font-size: 2em;
+
+}
+.price-commodity{
+    color: #222222;
+}
+.description-commodity{
+    color: #222222;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+.subcategory-commodity{
+    color: lightgrey;
+}
+.setting{
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.glyphicon{
+    font-size: 20px;
+}
+.title-barber{
+    color: #222222;
+    height: auto;
+    width: 300px;
+    margin-left: 273px;
+    padding-top: 13px;
+    font-size: 2em;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgba(211,211,211, .4);
+    background-color: white;
+}
+.title-barber>h3{
+    margin-top: 3px;
+}
+.service-barber{
+    color: #222222;
+    width: 300px;
+    margin-left: 273px;
+
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #222;
+
+}
+.left-footer{
+    height: 380px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+.center-footer{
+    height: 380px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.right-footer{
+    height: 380px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.registration{
+    height: auto;
+    margin-left: 15%;
+}
+.contacts>li{
+    list-style-type: none;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+    margin-left: -23px;
+}
+.icon{
+    margin: 0 20px 0 0;
+}
+
+.right-footer>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
+}
+.location{
+    margin-right: 5px;
+}
+input{
+    outline:none;
+}
+.form-contacts{
+
+    margin: 3% 13%;
+    color: #222222;
+    text-align: center;
+
+
+}
+.time-work{
+    width: 660px;
+    list-style-type: none;
+    font-size: 30px;
+    padding-bottom: 11px;
+    margin-left: 119px;
+}
+.time-work>li{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+
+}
+.title-contact-form{
+    color: orange;
+    margin-bottom: 40px;
+}
+.contacts-question>li{
+
+    list-style-type: none;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+    margin-left: -20px;
+    font-size: 28px;
+}
+.contacts-question{
+    padding-bottom: 205px;
+    width: 660px;
+    margin-left: 119px;
+}
+.contacts-question>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
+}
+.shipping{
+    margin-left: 26%;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.self-lifting{
+    text-align: left;
+    padding-top: 20px;
+    font-size: 15px;
+    margin-left: 4%;
+}
+
+.commodity-shop{
+    margin: 20px;
+    height: auto;
+    width: 96%;
+    padding-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.current-commodity-shop{
+
+    margin-left: 10px;
+    width: 283px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+
+}
+.commodity-shop-image{
+    width: 199px;
+    height: auto;
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    float: left;
+    margin-bottom: -8px;
+    margin-left: 25px;
+}
+.title-commodity-shop{
+    color: #222222;
+    height: 46px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 4px;
+    width: auto;
+    margin-top: 223px;
+
+}
+.price-commodity-shop{
+    margin-top: 18px;
+    color: #222222;
+    margin-left: 10px;
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.subcategory-commodity-shop{
+    margin-left: 10px;
+    font-size: 12px;
+    color: lightgrey;
+}
+
+.description-commodity-shop{
+    color: #222222;
+    padding-top: 5px;
+    padding-right: 20px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.shop-menu{
+    height: 500px;
+    background-color: rgba(255,255,255, .9);
+    border-radius: 10px;
+    margin-top: 76px;
+    width: 100%;
+}
+.basket{
+    font-size: 15px;
+    color: #222222;
+    transition: 1s;
+
+}
+.basket:hover{
+    color: #222222;
+    transition: .7s;
+}
+.btn-default:hover{
+    background-color: lightgrey;
+}
+.form-basket{
+    position: relative;
+    padding: 5px 20px;
+    width: 80%;
+    height: auto;
+    margin-left: 9%;
+    margin-bottom: 20px;
+}
+.range{
+    width: 90%;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+.basket-commodity{
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-top: 35px;
+    margin-left: 19px;
+}
+
+.current-basket-commodity{
+    position: relative;
+    margin-left: 10px;
+    width: 514px;
+    height: 146px;
+    background-color: white;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+.commodity-basket-image{
+    width: 149px;
+    height: auto;
+    display: inline-block;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    float: left;
+    margin-bottom: -8px;
+    margin-left: -24px;
+    margin-right: 25px;
+}
+.title-commodity-basket{
+    color: #222222;
+    font-size: 21px;
+    margin-left: 10px;
+    padding-top: 4px;
+}
+.subcategory-basket-shop{
+    color: lightgray;
+    padding-top: 5px;
+    padding-right: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.price-basket-shop{
+    margin-top: 18px;
+    color: #222222;
+    margin-left: 0px;
+    font-size: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.order-complete{
+    
+    width: 95%;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(34,34,34, .8);
+}
+.commodity-history{
+    margin: 20px;
+    height: auto;
+    width: 96%;
+    padding-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.current-commodity-history{
+
+    width: 210px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+
+}
+.commodity-history-image{
+    width: 140px;
+    height: auto;
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    float: left;
+    margin-bottom: -8px;
+    margin-left: 18px;
+}
+.title-commodity-history{
+    color: #222222;
+    height: 46px;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 4px;
+    width: auto;
+    margin-top: 147px;
+
+}
+.price-commodity-history{
+    margin-top: 7px;
+    color: #222222;
+    margin-left: 10px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.subcategory-commodity-history{
+    margin-left: 10px;
+    font-size: 10px;
+    color: lightgrey;
+}
+.bc-ground-site{
+    width: 100%; height: auto;
+    background-color: rgba(255,255,255,.85);
+    margin-top: -20px;
+    padding-top: 20px
+}
+.currentCommodity-image{
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    padding-left: 0;
+    padding-top: 0px;
+    padding-bottom: 28px;
+    float: left;
+    margin-bottom: -24px;
+    margin-right: 50px;
+    position: relative;
+}
+.title-currentCommodity{
+    color: #222222;
+    height: auto;
+    font-size: 40px;
+    margin-right: 100px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-top: -12px;
+
+}
+.price-currentCommodity{
+    margin-top: 35px;
+    color: #222222;
+    font-size: 40px;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: -13px;
+}
+
+.subcategory-currentCommodity{
+    font-size: 17px;
+    color: orange;
+    margin-top: 5px;
+}
+
+.description-currentCommodity{
+    color: #222222;
+    padding-right: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    height: auto;
+    margin-top: -50px;
+}
+.current-barber-service{
+    width: 520px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.price-current-service{
+    margin-top: 8px;
+    color: #222222;
+    font-size: 25px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.barber-order-information-user{
+    color: #222222;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+

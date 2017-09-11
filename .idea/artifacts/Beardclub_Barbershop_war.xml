@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Beardclub_Barbershop:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Beardclub_Barbershop-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Beardclub_Barbershop:war exploded" />
+    </root>
+  </artifact>
+</component>
